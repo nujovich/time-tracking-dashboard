@@ -1,0 +1,39 @@
+.dashboard__container{
+    @apply
+        grid grid-cols-4 grid-rows-2 gap-4
+}
+
+.title{
+    @apply
+        bg-inherit text-xs text-left p-4 
+}
+
+.profile__container{
+    @apply
+        bg-dark-blue row-span-2 rounded-xl text-white flex flex-col gap-4
+}
+
+.profile__absolute__container{
+    @apply
+        bg-blue rounded-xl
+}
+
+.name{
+    @apply
+        bg-inherit text-3xl text-left
+}
+
+.timeframe{
+    @apply
+        bg-inherit block text-left pl-4 pb-2 rounded-xl
+}
+
+.profile__image{
+    @apply
+        w-14 h-14 border-solid border-2 rounded-full m-4
+}
+
+.dashboard__detail__card{
+    @apply
+        border-solid border-4 rounded-2xl border-white text-white p-2
+}
