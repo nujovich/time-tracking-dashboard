@@ -14,22 +14,64 @@ function App() {
         <a className='timeframe'>Monthly</a>
       </div>
       <div className='dashboard__detail__card'>
-        <h1 className='detail__title'>Work</h1>
+        <div className='card__title__container'>
+          <h1 className='detail__title'>Work</h1>
+          <img className='card__icon' src='./icon-ellipsis.svg'></img>
+        </div>
+        <div className='timeframe__detail'>
+          <h2 className='timeframe__value'>32 hrs</h2>
+          <p className='last__timeframe__value'>Last week - 36 hrs</p>
+        </div>
       </div>
       <div className='dashboard__detail__card'>
-        <h1 className='detail__title'>Play</h1>
+        <div className='card__title__container'>
+          <h1 className='detail__title'>Play</h1>
+          <img className='card__icon' src='./icon-ellipsis.svg'></img>
+        </div>
+        <div className='timeframe__detail'>
+          <h2 className='timeframe__value'>32 hrs</h2>
+          <p className='last__timeframe__value'>Last week - 36 hrs</p>
+        </div>
       </div>
       <div className='dashboard__detail__card'>
-        <h1 className='detail__title'>Study</h1>
+        <div className='card__title__container'>
+          <h1 className='detail__title'>Study</h1>
+          <img className='card__icon' src='./icon-ellipsis.svg'></img>
+        </div>
+        <div className='timeframe__detail'>
+          <h2 className='timeframe__value'>32 hrs</h2>
+          <p className='last__timeframe__value'>Last week - 36 hrs</p>
+        </div>
       </div>
       <div className='dashboard__detail__card'>
-        <h1 className='detail__title'>Exercise</h1>
+        <div className='card__title__container'>
+          <h1 className='detail__title'>Exercise</h1>
+          <img className='card__icon' src='./icon-ellipsis.svg'></img>
+        </div>
+        <div className='timeframe__detail'>
+          <h2 className='timeframe__value'>32 hrs</h2>
+          <p className='last__timeframe__value'>Last week - 36 hrs</p>
+        </div>
       </div>
       <div className='dashboard__detail__card'>
-        <h1 className='detail__title'>Social</h1>
+        <div className='card__title__container'>
+          <h1 className='detail__title'>Social</h1>
+          <img className='card__icon' src='./icon-ellipsis.svg'></img>
+        </div>
+        <div className='timeframe__detail'>
+          <h2 className='timeframe__value'>32 hrs</h2>
+          <p className='last__timeframe__value'>Last week - 36 hrs</p>
+        </div>
       </div>
       <div className='dashboard__detail__card'>
-        <h1 className='detail__title'>Self Care</h1>
+        <div className='card__title__container'>
+          <h1 className='detail__title'>Self Care</h1>
+          <img className='card__icon' src='./icon-ellipsis.svg'></img>
+        </div>
+        <div className='timeframe__detail'>
+          <h2 className='timeframe__value'>32 hrs</h2>
+          <p className='last__timeframe__value'>Last week - 36 hrs</p>
+        </div>
       </div>
     </div>
   )

@@ -37,3 +37,28 @@
     @apply
         border-solid border-4 rounded-2xl border-white text-white p-2
 }
+
+.card__title__container{
+    @apply
+        flex justify-between mx-2
+}
+
+.card__icon{
+    @apply
+        py-3
+}
+
+.timeframe__detail{
+    @apply
+        flex flex-col p-2 gap-2
+}
+
+.timeframe__value{
+    @apply
+        text-5xl text-left
+}
+
+.last__timeframe__value{
+    @apply
+        text-sm text-left
+}
